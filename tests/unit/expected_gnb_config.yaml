@@ -1,0 +1,15 @@
+amfConfigs:
+  - address: amf
+    port: 38412
+mcc: '208'
+mnc: '93'
+nci: '0x000000010'
+idLength: 32
+tac: "000001"
+linkIp: 127.0.0.1
+ngapIp: 127.0.0.1
+gtpIp: 127.0.0.1
+slices:
+  - sd: "010203"
+    sst: 1
+ignoreStreamIds: true

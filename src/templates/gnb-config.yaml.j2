@@ -1,0 +1,15 @@
+amfConfigs:
+  - address: {{ amf_hostname }}
+    port: {{ amf_port }}
+mcc: '{{ mcc }}'
+mnc: '{{ mnc }}'
+nci: '{{ nci }}'
+idLength: {{ id_length }}
+tac: "{{ tac }}"
+linkIp: {{ gnb_link_address }}
+ngapIp: {{ gnb_ngap_address }}
+gtpIp: {{ gnb_gtp_address }}
+slices:
+  - sd: "{{ sd }}"
+    sst: {{ sst }}
+ignoreStreamIds: true

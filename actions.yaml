@@ -1,0 +1,6 @@
+
+start-radio:
+  description: Starts the gNB simulator
+
+stop-radio:
+  description: Stops the gNB simulator

@@ -1,0 +1,61 @@
+options:
+  amf-config-address:
+    type: string
+    default: 127.0.0.1
+    description: Public address for the AMF
+  amf-config-port:
+    type: int
+    default: 38412
+    description: Public port for the AMF
+  gnb-interface:
+    type: string
+    description: Host interface to use for the RAN Network. If unspecificed, a bridge will be used.
+  gnb-address:
+    type: string
+    default: "127.0.0.1/24"
+    description: gNB's IP address on the RAN network, for communicating with the UPF
+  id-length:
+    type: int
+    default: 32
+    description: NR gNB ID length in bits [22...32]
+  mcc:
+    type: string
+    default: "208"
+    description: Mobile Country Code
+  mnc:
+    type: string
+    default: "93"
+    description: Mobile Network code
+  nci:
+    type: string
+    default: "0x000000010"
+    description: NR Cell Identity
+  sd:
+    type: string
+    default: "010203"
+    description: Slice ID
+  sst:
+    type: int
+    default: 1
+    description: Slice Service Type
+  tac:
+    type: string
+    default: "000001"
+    description: Tracking Area Code. Hexadecimal value represented as a string.
+
+  imsi:
+    type: string
+    default: "208930100007487"
+    description: International Mobile Subscriber Identity
+  usim-key:
+    type: string
+    default: "5122250214c33e723a5dd523fc145fc0"
+    description: USIM Key
+  usim-opc:
+    type: string
+    default: "981d464c7c52eb6e5036234984ad0bcf"
+    description: USIM Operator Key
+  usim-sequence-number:
+    type: string
+    default: "16f3b3f70fc2"
+    description: USIM sequence number

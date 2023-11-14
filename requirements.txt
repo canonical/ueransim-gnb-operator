@@ -1,0 +1,7 @@
+jinja2
+lightkube
+lightkube-models
+ops
+pydantic
+pytest-interface-tester
+PyYAML>=6.0.1
